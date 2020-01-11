@@ -1,0 +1,167 @@
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+    font-family: Mont-Bold;
+    src: url('font/Mont-Bold.otf');
+}
+
+@font-face {
+    font-family: Mont-SemiBold;
+    src: url('/font/Mont-SemiBold.otf');
+}
+
+@font-face {
+    font-family: Mont-Regular;
+    src: url('font/Mont-Regular.otf');
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ STYLE ]*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.App-header {
+    margin-top: fill;
+    background-color: #000000;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Mont-Regular;
+    color: #ffffff;
+    font-size: 5px;
+}
+
+
+App-header .logo {
+    float: left;
+    height: 70px;
+}
+
+App-header .logo img {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-family: -apple-system, Mont-Regular, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image:url('./images/background.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+
+.Submit {
+    *width: 100%;
+    max-width: 500px;
+    /*max-height: 1000px;*/
+    background: #ffffff;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    /*padding: 30px 80px;*/
+    padding: 40px 56px 90px;
+    padding-top: 40px;
+    padding-right: 56px;
+    padding-bottom: 50px;
+    padding-left: 56px;
+
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Mont-Bold;
+    margin: 40px 0;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+}
+
+.Submit .title {
+    font-family: Mont-Bold;
+    color: #64c8fa;
+    font-size: 22px;
+}
+
+.Submit .content {
+    font-family: Mont-Regular;
+    font-size: 12px;
+}
+
+.Submit .content label {
+    /* display: block; */
+    text-align: left;
+}
+
+.Confirm {
+    *width: 100%;
+    max-width: 500px;
+    /*max-height: 1000px;*/
+    background: #ffffff;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 40px 56px 90px;
+    padding-top: 40px;
+    padding-right: 56px;
+    padding-bottom: 50px;
+    padding-left: 56px;
+
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Mont-Bold;
+    margin: 40px 0;
+        margin-top: 40px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+}
+
+.txtb {
+    border-bottom: 1px solid lightgray;
+    margin: 8px 0;
+    padding: 12px 18px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    color: lightseagreen;
+    font-size: 12px;
+    font-family: Mont-Regular;
+}
+
+.txtb input, .txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn {
+    display: inline-block;
+    background: #64c8fa;
+    padding: 14px 0;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
